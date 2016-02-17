@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_normal_color">#878787</color>
+    <color name="default_press_color">#1b79c4</color>
+
+    <color name="default_bg_press_color">#20000000</color>
+    <color name="default_bg_normal_color">#10000000</color>
+
+</resources>
