@@ -8,7 +8,17 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.SectionIndexer;
 import android.widget.TextView;
+
+import com.kevin.kglettersidebar.util.LanguageUtil;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Created by kevin on 16/2/5.

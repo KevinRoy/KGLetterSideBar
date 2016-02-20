@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Objects;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -23,7 +22,7 @@ import butterknife.ButterKnife;
 /**
  * Created by kevin on 16/2/17.
  */
-public class TestAdapter extends BaseAdapter implements SectionIndexer {
+public class TestAdapter extends BaseAdapter implements SectionIndexer{
 
     private List<Person> mPersons = new ArrayList<Person>();
     private List<Object> mGroups = new ArrayList<Object>();

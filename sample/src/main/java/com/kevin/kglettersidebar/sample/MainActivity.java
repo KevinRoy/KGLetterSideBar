@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         persons.add(new Person("罗小", 19));
-        persons.add(new Person("铮哥", 20));
+        persons.add(new Person("哈哈哥", 20));
         persons.add(new Person("李小鹏", 21));
         persons.add(new Person("二货", 20));
         persons.add(new Person("三货", 20));
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         persons.add(new Person("楚留香", 20));
         persons.add(new Person("丁大哥", 20));
         persons.add(new Person("占中", 20));
+        persons.add(new Person("007", 12));
 
         testAdapter = new TestAdapter(this, persons);
         listview.setAdapter(testAdapter);
